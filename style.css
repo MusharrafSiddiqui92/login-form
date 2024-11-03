@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("sce.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    height: 40%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.heading{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#e8d07e;
+}
+.form input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
